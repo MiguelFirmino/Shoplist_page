@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: monospace;
+    margin: 0px;
+    background-color: #ffbb62;
+}
+
+button {
+    font-weight: bolder;
+    cursor: pointer;
+    font-size: 15px;
+    letter-spacing: 1px;
+    border: 0;
+    width: 90px;
+    transition: all .1s ease-in-out;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+.shoplist-box {
+    position: relative;
+    margin: 0 auto;
+    height: 100vh;
+    width: 50em;
+}
+
+.shoplist-box header {
+    padding: 40px 0;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.item-adder {
+    display: flex;
+}
+
+.name-input {
+    background-color: #fff7ee;
+    border: 0;
+    flex-grow: 3;
+    padding: 6px 8px;
+    font-size: 25px;
+}
+
+.add-btn {
+    flex-grow: 1;
+    color: #fce2c5;
+    background-color: #502b0f;
+}
+
+.list-box {
+    padding: 20px 0;
+}
+
+.list-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.shop-list {
+    position: relative;
+    margin: 0 auto;
+    min-width: 70%;
+}
+
+.shop-list li {
+    display: flex;
+    background-color: #fab459;
+    width: 100%;
+    padding: 12px 0;
+    margin-bottom: 5px;
+    transition: all 0.5s ease-in;
+}
+
+.checked {
+    opacity: 80%;
+}
+
+.item-name {
+    left: 0%;
+    font-size: 22px;
+    flex-grow: 1;
+    padding: 0 25px 0 10px;
+}
+
+.check-btn {
+    color: #162516;
+    background-color: #8cff9c;
+}
+
+.delete-btn {
+    color: #3a0806;
+    background-color: #fd5151;
+}
